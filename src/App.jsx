@@ -1,5 +1,6 @@
 import { MainCard } from "./components/MainCard"
 import { Trusted } from "./components/Trusted"
+import { Video } from "./components/Video"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <div >
         <MainCard />
         <Trusted />
+        <Video />
       </div>
     </>
   )

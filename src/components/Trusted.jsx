@@ -1,4 +1,4 @@
-import { Card } from "./Others/Card";
+import { Card } from "./Others/PeoplesCard";
 
 export function Trusted() {
     return (
