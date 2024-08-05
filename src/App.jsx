@@ -6,7 +6,7 @@ import { MainCard } from "./components/MainCard"
 import { SeamlessSection } from "./components/SeamlessSection"
 import { SocSection } from "./components/SocSection"
 import { Trusted } from "./components/Trusted"
-import { Video } from "./components/Video"
+import { VideoWithThreeCardSection } from "./components/VideoWithThreeCardSection"
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <div >
         <MainCard />
         <Trusted />
-        <Video />
+        <VideoWithThreeCardSection />
         <FourCardSection />
         <SeamlessSection />
         <SocSection />

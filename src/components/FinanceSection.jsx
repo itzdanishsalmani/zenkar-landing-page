@@ -1,7 +1,7 @@
 export function FinanceSection() {
     return (
         <div className="mt-8 px-16">
-            <div className="flex justify-center items-center font-bold text-4xl ">Why finance teams love Zenskar
+            <div className="flex justify-center items-center text-blue-950 font-bold text-4xl ">Why finance teams love Zenskar
             </div>
             <div className="mt-8 flex flex-row space-x-12">
 

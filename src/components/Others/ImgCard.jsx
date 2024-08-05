@@ -4,8 +4,8 @@ export function RightImgCard({bgAndTextColor, text1, text2, text3, text4, image}
         <div className="px-16 grid grid-cols-2 ">
             <div >
                 <span className={bgAndTextColor}>{text1}</span>
-                <div className="mt-4 text-4xl font-bold">{text2}</div>
-                <div className="mt-4 text-lg">{text3}
+                <div className="mt-4 text-blue-950 text-4xl font-bold">{text2}</div>
+                <div className="mt-4 text-slate-500 text-lg">{text3}
                 </div>
                 <div className="mt-8 underline font-bold">{text4} </div>
             </div>
@@ -29,8 +29,8 @@ export function LeftImgCard({image, bgAndTextColor, text1, text2, text3, text4})
 
             <div >
                 <span className={bgAndTextColor}>{text1}</span>
-                <div className="mt-4 text-4xl font-bold">{text2}</div>
-                <div className="mt-4 text-lg">{text3}
+                <div className="mt-4 text-blue-950 text-4xl font-bold">{text2}</div>
+                <div className="mt-4 text-lg text-slate-500">{text3}
                 </div>
                 <div className="mt-8 underline font-bold">{text4} </div>
             </div>
@@ -44,7 +44,7 @@ export function ThreeCard({text1, text2, image}) {
     return (
         <div className="mt-8 w-82 ">
             <div className="bg-slate-100 mx-8 p-2 rounded-lg">
-                <div className="mt-8 font-bold">{text1}</div>
+                <div className="mt-8 text-blue-950 font-bold">{text1}</div>
                 <div className="mt-4">{text2}</div>
                 <div className="mt-12">
                     <img src={image} alt="" />

@@ -1,7 +1,7 @@
 export function Footer() {
     return (
         <div className="px-16 bg-slate-200 h-fit mt-12">
-            <div className="flex justify-center space-x-4">
+            <div className="flex justify-center space-x-4 pt-12">
                 <div>Not ready to talk to sales yet? Join our community.</div>
                 <div><input type="text" placeholder="Work email" className="border border-black w-72" /></div>
                 <div><button>Submit</button></div>
@@ -76,6 +76,11 @@ export function Footer() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="mt-12 pb-12">
+                ______________________
+
                 </div>
             </div>
     )

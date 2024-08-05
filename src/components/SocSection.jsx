@@ -3,7 +3,7 @@ export function SocSection() {
         <div>
             <div className="mt-12 grid grid-cols-12 px-16 flex flex-row items-center">
                 <div className="col-span-3">
-                    <div className="text-4xl font-bold">
+                    <div className="text-4xl text-blue-950 font-bold">
                         SOC 2 and GDPR compliant: Secure your billing
                     </div>
                     <div className="mt-4 texl-lg">

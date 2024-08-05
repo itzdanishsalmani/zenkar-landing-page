@@ -2,14 +2,14 @@ import { Card } from "./Others/PeoplesCard";
 
 export function Trusted() {
     return (
-        <div className="flex flex-col items-center justify-center">
-            <div className="text-3xl font-bold">
+        <div className="flex flex-col mt-12 items-center justify-center">
+            <div className="text-4xl text-blue-950 font-bold">
             Trusted by industry experts
             </div>
             <div className="text-xl mt-4">
             Fast-growing companies choose Zenskar for smooth, flexible and reliable billing to power their growth.
             </div>
-            <div className="flex flex-row justify-between items-center w-10/12 mt-8">
+            <div className="flex flex-row justify-between items-center w-10/12 mt-12">
                 <div><img className="w-32" src="/100ms.svg" alt="" /></div>
                 <div><img className="w-32" src="/edify.png" alt="" /></div>
                 <div><img className="w-32" src="/pontera.svg" alt="" /></div>

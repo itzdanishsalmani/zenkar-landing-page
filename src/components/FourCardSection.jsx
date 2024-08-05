@@ -2,7 +2,7 @@ import { LeftImgCard, RightImgCard } from "./Others/ImgCard"
 
 export function FourCardSection() {
     return (
-        <div>
+        <div >
             <LeftImgCard 
             image={"four-card-1.png"}
             bgAndTextColor={"bg-slate-200 text-blue-400"}
