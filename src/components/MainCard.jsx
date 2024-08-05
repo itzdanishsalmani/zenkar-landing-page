@@ -1,3 +1,5 @@
+import { Buttons } from "./Others/Buttons";
+
 export function MainCard() {
     return ( 
     <div className="bg-main-bg flex flex-col h-fit border items-center justify-center">
@@ -8,8 +10,12 @@ export function MainCard() {
         Ditch clunky solutions and upgrade to flexible and automated revenue workflows without engineers. Reduce manual work and empower finance teams with no-code usability.
         </div>
 
-        <div className="border cursor-pointer mt-8 p-4 rounded-lg mb-4">
-            Book a Demo 
+        <div className="my-8">
+            <Buttons 
+            style={"bg-blue-950 text-white rounded-lg"}
+            text={"Book a Demo"}
+            image={"arrow_forward.svg"}
+            />
         </div>
     </div>
     )

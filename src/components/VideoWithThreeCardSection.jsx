@@ -1,4 +1,4 @@
-import { RightImgCard, ThreeCard } from "./Others/ImgCard";
+import { RightImgCard } from "./Others/ImgCard";
 
 export function VideoWithThreeCardSection() {
     return (
@@ -46,4 +46,18 @@ export function VideoWithThreeCardSection() {
         </div>
     </div>
     );
+}
+
+function ThreeCard({text1, text2, image}) {
+    return (
+        <div className="mt-8 w-82 ">
+            <div className="bg-slate-100 mx-8 p-2 rounded-lg">
+                <div className="mt-8 text-blue-950 font-bold">{text1}</div>
+                <div className="mt-4">{text2}</div>
+                <div className="mt-12">
+                    <img src={image} alt="" />
+                    </div>
+            </div>
+        </div>
+    )
 }

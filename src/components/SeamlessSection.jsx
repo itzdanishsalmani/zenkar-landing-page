@@ -1,4 +1,4 @@
-import { IconsCard } from "./Others/IconsCard";
+import { Buttons } from "./Others/Buttons"
 
 export function SeamlessSection() {
     return (
@@ -23,11 +23,22 @@ export function SeamlessSection() {
                     <IconsCard image={"icon10.png"} />
                     <IconsCard image={"icon11.png"} />
                     </div>
-                    <div className="border w-fit cursor-pointer mt-8 p-4 rounded-lg mb-4">
-            View Integrations 
+                    <div className="my-8 flex justify-center border">
+                        <Buttons 
+                        style={"bg-blue-950 text-white rounded-lg"}
+                        text={"View Integration"}
+                        image={"arrow_forward.svg"}/>
             </div>
         </div>
                 
+        </div>
+    )
+}
+
+function IconsCard({image}) {
+    return (
+        <div className="bg-white rounded-lg flex justify items-center">
+            <img src={image} width={80} height={80} alt="" className="p-3 " />
         </div>
     )
 }
