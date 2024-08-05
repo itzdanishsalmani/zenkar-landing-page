@@ -1,5 +1,6 @@
 import { ExperienceSetion } from "./components/ExperienceSection"
 import { FinanceSection } from "./components/FinanceSection"
+import { Footer } from "./components/Footer"
 import { FourCardSection } from "./components/FourCardSection"
 import { MainCard } from "./components/MainCard"
 import { SeamlessSection } from "./components/SeamlessSection"
@@ -20,6 +21,7 @@ function App() {
         <SocSection />
         <FinanceSection />
         <ExperienceSetion />
+        <Footer />
       </div>
     </>
   )
