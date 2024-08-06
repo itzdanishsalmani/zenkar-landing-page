@@ -13,7 +13,7 @@ export function ExperienceSetion() {
                 </div>
                 <div className="my-12">
                     <Buttons 
-                    style={"bg-red-400 text-white rounded-lg"}
+                    style={"bg-red-400 text-white rounded-lg p-4"}
                     text={"Schedule Demo "}
                     image={"arrow_forward.svg"}
                     />

@@ -1,12 +1,16 @@
+import { Buttons } from "./Others/Buttons";
+
 export function Footer() {
     return (
         <div className="px-16 bg-slate-200 h-fit mt-12">
-            <div className="flex justify-center space-x-4 pt-12">
+            <div className="flex justify-center items-center space-x-4 pt-12">
                 <div>Not ready to talk to sales yet? Join our community.</div>
-                <div><input type="text" placeholder="Work email" className="border border-black w-72" /></div>
-                <div><button>Submit</button></div>
+                <div><input type="text" placeholder="Work email" className="p-2 rounded-lg w-72" /></div>
+                    <Buttons 
+                    text={"Submit"}
+                    style={"bg-blue-950 text-white p-2 rounded-lg"}/>
             </div>
-            ______________________
+            ___________________________________________________________________________________________________________________________________________________________
 
             <div className="grid grid-cols-12 mt-12">
                 <div className="col-span-3">
@@ -79,7 +83,7 @@ export function Footer() {
                 </div>
 
                 <div className="mt-12 pb-12">
-                ______________________
+                ___________________________________________________________________________________________________________________________________________________________
 
                 </div>
             </div>

@@ -23,9 +23,9 @@ export function SeamlessSection() {
                     <IconsCard image={"icon10.png"} />
                     <IconsCard image={"icon11.png"} />
                     </div>
-                    <div className="my-8 flex justify-center border">
+                    <div className="my-8 flex justify-center ">
                         <Buttons 
-                        style={"bg-blue-950 text-white rounded-lg"}
+                        style={"bg-blue-950 text-white rounded-lg p-4"}
                         text={"View Integration"}
                         image={"arrow_forward.svg"}/>
             </div>

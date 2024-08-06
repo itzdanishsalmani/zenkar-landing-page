@@ -12,7 +12,7 @@ export function MainCard() {
 
         <div className="my-8">
             <Buttons 
-            style={"bg-blue-950 text-white rounded-lg"}
+            style={"bg-blue-950 text-white rounded-lg p-4"}
             text={"Book a Demo"}
             image={"arrow_forward.svg"}
             />
