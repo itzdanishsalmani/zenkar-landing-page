@@ -82,9 +82,29 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div className="mt-12 pb-12">
+                <div className="mt-12 pb-8">
                 ___________________________________________________________________________________________________________________________________________________________
 
+                </div>
+                <div className="flex justify-between items-center">
+                    <div>
+                    Zenskar © 2024 - 169, Madison Avenue #2201, Ney York, 10016 
+                    </div>
+
+                    <div>
+                        Terms of Service
+                    </div>
+                    <div className="flex">
+
+                        <div><img src="vector3.svg" alt="" className="w-8 bg-blue-950 rounded-full mx-2"/></div>
+                        <div><img src="vector4.svg" alt="" className="w-8 bg-blue-950 rounded-full mx-2"/></div>
+                        <div><img src="vector5.svg" alt="" className="w-8 bg-blue-950 rounded-full mx-2"/></div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
                 </div>
             </div>
     )
