@@ -6,7 +6,7 @@ export function Trusted() {
             <div className="text-3xl md:text-4xl text-center text-blue-950 font-bold">
             Trusted by industry experts
             </div>
-            <div className="md:text-xl mt-4 text-center">
+            <div className="md:text-xl text-slate-600 mt-4 text-center">
             Fast-growing companies choose Zenskar for smooth, flexible and reliable billing to power their growth.
             </div>
             <div className="flex flex-col md:flex-row justify-between items-center md:w-10/12 mt-12">
