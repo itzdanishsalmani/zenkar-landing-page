@@ -2,9 +2,9 @@ import { Buttons } from "./Others/Buttons"
 
 export function SeamlessSection() {
     return (
-        <div className="mt-12  flex justify-center bg-slate-100 h-screen ">
-            <div className="w-7/12 text-center mt-24  ">
-                <div className="text-4xl font-bold">Seamless integration with your tech stack </div>
+        <div className="mt-12 flex justify-center bg-slate-100 h-fit ">
+            <div className="md:w-7/12 text-center mt-24  ">
+                <div className="text-3xl md:text-4xl px-4 text-blue-950 font-bold">Seamless integration with your tech stack </div>
                 <div className="mt-2 text-lg"> Access 100+ integrations across CRM, ERP, payment gateways, and more to automate billing without disrupting your setup.
                 </div>
                 <div className="flex justify-center space-x-8 mt-8 w-full ">

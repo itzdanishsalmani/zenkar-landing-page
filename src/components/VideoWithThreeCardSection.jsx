@@ -4,10 +4,10 @@ export function VideoWithThreeCardSection() {
     return (
         <div>
         <div className="flex flex-col text-blue-950 justify-center items-center">
-            <div className="w-7/12 mt-12 text-4xl font-bold text-center mb-8">
+            <div className="md:w-7/12 mt-12 text-3xl md:text-4xl font-bold text-center mb-8">
                 Watch how Zenskar automates your Financial Workflows
             </div> 
-            <div className="mb-24">
+            <div className="mb-24 p-4">
                 <video src="video.mp4" type="video/mp4" width={1000} controls ></video>    
             </div> 
             </div>   
@@ -23,7 +23,7 @@ export function VideoWithThreeCardSection() {
 
             {/* Three card */}
 
-            <div className="flex mt-8 ">
+            <div className="flex flex-col md:flex-row mt-8 ">
                 
             <ThreeCard 
             text1={"Increase recurring revenue with subscriptions"}

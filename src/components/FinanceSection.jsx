@@ -1,9 +1,9 @@
 export function FinanceSection() {
     return (
-        <div className="mt-8 px-16">
-            <div className="flex justify-center items-center text-blue-950 font-bold text-4xl ">Why finance teams love Zenskar
+        <div className="mt-8 px-4 text-center md:px-16">
+            <div className="md:flex justify-center items-center text-blue-950 font-bold text-3xl md:text-4xl ">Why finance teams love Zenskar
             </div>
-            <div className="mt-8 flex flex-row space-x-12">
+            <div className="mt-8 flex flex-col md:flex-row md:space-x-12 space-y-8">
 
             <Cards 
             image={"finance1.webp"}
@@ -29,7 +29,7 @@ export function FinanceSection() {
 
 function Cards({image,text1,text2}) {
    return (
-    <div className="w-4/12">
+    <div className="md:w-4/12">
         <div className="bg-slate-100 p-6 rounded-lg">
             <img src={image} alt="" width={40}/>
             <div className="mt-4 font-bold">{text1} </div>
