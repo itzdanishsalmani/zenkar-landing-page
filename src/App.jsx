@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div >
-        {/* <NavBar /> */}
+        <NavBar />
         <MainCard />
         <Trusted />
         <VideoWithThreeCardSection />
