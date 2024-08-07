@@ -56,7 +56,7 @@ export function NavBar() {
                 <div>Prices</div>
             </div>
 
-            <div className="invisible md:visible flex space-x-4">
+            <div className=" hidden lg:flex space-x-4">
                 <Buttons
                     style={"text-blue-950 border border-blue-950 rounded-lg p-2"}
                     text={"Login"}
