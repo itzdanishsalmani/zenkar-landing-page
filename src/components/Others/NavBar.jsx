@@ -80,7 +80,7 @@ export function NavBar() {
             <div>
 
 {/* Phone */}
-        <div className="phone z-10 bg-white w-screen">
+        <div className="phone z-10 h-screen bg-white w-screen">
                 <div className=" h-auto text-slate-500 cursor-pointer ">
                     <div className="pt-4 px-4 ">
                         <img src="zenskarImg.svg" alt="" />
