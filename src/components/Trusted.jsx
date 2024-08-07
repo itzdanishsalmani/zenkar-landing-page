@@ -20,7 +20,9 @@ export function Trusted() {
                 <div className="flex flex-row space-x-8"><img className="w-32" src="/yembo.svg" alt="" />
                 <div><img className="w-32" src="/squadstack-p-500.webp" alt="" /></div></div>
             </div>
+
             <Card/>
+            
         </div>
     )
 }
