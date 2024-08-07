@@ -133,7 +133,7 @@ export function Footer() {
 
             {/* phone */}
 
-            <div className="phone md:hidden w-screen">
+            <div className="phone md:hidden w-screen mt-12">
                 <div className="bg-slate-200 h-auto text-slate-500 cursor-pointer ">
                     <div className="pt-4 px-4 ">
                         <img src="zenskarImg.svg" alt="" />

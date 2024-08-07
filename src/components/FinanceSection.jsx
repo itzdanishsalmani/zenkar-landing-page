@@ -30,7 +30,7 @@ export function FinanceSection() {
 
 function Cards({image,text1,text2}) {
    return (
-    <div className="md:w-4/12">
+    <div className="mt-4 md:mt-0 md:w-4/12">
         <div className="bg-slate-100 p-6 rounded-lg">
             <img src={image} alt="" width={40}/>
             <div className="mt-4 font-bold">{text1} </div>
