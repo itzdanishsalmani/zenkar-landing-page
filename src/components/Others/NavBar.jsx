@@ -17,14 +17,14 @@ export function NavBar() {
 
     return (
         <div >
-        <div className="web h-fit mt-12 hidden md:block relative cursor-pointer">
+        <div className="web h-fit relative cursor-pointer">
         <div className="fixed w-full h-16 bg-white border-b px-6 flex items-center justify-between">
             <img src="zenskarImg.svg" alt="" />
 
-            <div className="text-sm flex text-blue-950 space-x-16">
+            <div className="hidden md:flex text-sm flex text-blue-950 space-x-16">
                 <div>Why Zenskar</div>
                 <div
-                    className="relative"
+                    className=" relative"
                     onMouseEnter={() => setIsProductHovered(true)}
                     onMouseLeave={() => setIsProductHovered(false)}
                 >Product
@@ -32,7 +32,7 @@ export function NavBar() {
                 </div>
 
                 <div
-                    className="relative"
+                    className=" relative"
                     onMouseEnter={()=> setIsSolutionHovered(true)}
                     onMouseLeave={()=> setIsSolutionHovered(false)}
                 >Solutions
@@ -40,7 +40,7 @@ export function NavBar() {
                 </div>
 
                 <div
-                className="relative"
+                className=" relative"
                 onMouseEnter={()=>setIsResourcesHovered(true)}
                 onMouseLeave={()=>setIsResourcesHovered(false)}
                 >Resources
@@ -48,7 +48,7 @@ export function NavBar() {
                 </div>
 
                 <div
-                className="relative"
+                className=" relative"
                 onMouseEnter={()=>setIsCompanyHovered(true)}
                 onMouseLeave={()=>setIsCompanyHovered(false)}
                 >Company
@@ -56,7 +56,7 @@ export function NavBar() {
                 <div>Prices</div>
             </div>
 
-            <div className="flex space-x-4">
+            <div className="invisible md:visible flex space-x-4">
                 <Buttons
                     style={"text-blue-950 border border-blue-950 rounded-lg p-2"}
                     text={"Login"}
@@ -69,8 +69,8 @@ export function NavBar() {
                 />
                 
             </div>
-            <div className="block md:hidden p-2 ml-2 md:mx-2 md:py-2 md:px-4 "
-                        onClick={() => setPhoneView(true)}>
+            <div className="md:hidden p-2 ml-2 md:mx-2 md:py-2 md:px-4 "
+                        onClick={() => setPhoneView(!isPhoneView)}>
                         <img src="menu.svg" alt="Menu" />
                         </div>
             </div>
@@ -189,6 +189,20 @@ export function NavBar() {
                             <div className="border-b border-slate-400">
                                 Pricing
                             </div>
+
+                            <div className="flex flex-col space-y-4 justify-center items-center">
+                            <Buttons
+                            style={"text-blue-950 border border-blue-950 rounded-lg p-2"}
+                            text={"Login"}
+                            image={"arrow_forward_black.svg"}
+                            />
+                            
+                            <Buttons
+                            style={"text-white bg-blue-950 rounded-lg p-2"}
+                            text={"Book a Demo"}
+                            image={"arrow_forward.svg"}
+                            />                            
+                </div>
                         </div>
                         
                        

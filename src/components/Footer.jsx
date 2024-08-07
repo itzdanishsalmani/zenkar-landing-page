@@ -21,8 +21,8 @@ export function Footer() {
                         style={"bg-blue-950 text-white p-2 rounded-lg"} />
                 </div>
 
-                <div className="text-slate-500 w-fit hidden md:block">
-                    ___________________________________________________________________________________________________________________________________________________________
+                <div>
+                    <hr className="w-auto h-1 mx-auto my-4 bg-slate-500"/>
                 </div>
 
                 <div className="grid grid-cols-12 mt-12 ">
@@ -95,10 +95,8 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div className="mt-8 pb-4 text-slate-500 hidden md:block">
-                    ___________________________________________________________________________________________________________________________________________________________
+                <hr className="w-auto h-1 mx-auto my-4 bg-slate-500"/>
 
-                </div>
                 <div className="flex justify-between items-center text-slate-500">
                     <div>
                         Zenskar © 2024 - 169, Madison Avenue #2201, Ney York, 10016
@@ -143,7 +141,11 @@ export function Footer() {
                         <div className="menu mt-8 space-y-8 ">
 
                             <div className="border-b border-slate-400"
-                                onClick={() => setCompanyOpen(!companyOpen)} >Company
+                                onClick={() => setCompanyOpen(!companyOpen)} >
+                                <div className="flex justify-between">
+                                    Company
+                                    <img src="arrow_drop_down.svg" alt="" />
+                                </div>
                                 {companyOpen && (
                                     <div className="mt-4 space-y-4">
                                         <div>Why Zenkar</div>
@@ -155,7 +157,10 @@ export function Footer() {
                             </div>
 
                             <div className="border-b border-slate-400"
-                                onClick={() => setOfferingsOpen(!offeringsOpen)}>Offerings
+                                onClick={() => setOfferingsOpen(!offeringsOpen)}>
+                                <div className="flex justify-between">Offerings
+                                <img src="arrow_drop_down.svg" alt="" />
+                                    </div>
                                 {offeringsOpen && (
                                     <div className="mt-4 space-y-4">
                                         <div>Billing</div>
@@ -170,7 +175,10 @@ export function Footer() {
 
                             <div className="border-b border-slate-400"
                                 onClick={() => setSolutionsOpen(!solutionsOpen)}>
-                                Solutions
+                                <div className="flex justify-between">
+                                    Solutions
+                                <img src="arrow_drop_down.svg" alt="" />
+                                    </div>
                                 {solutionsOpen && (
                                     <div className="mt-4 space-y-4">
                                         <div>subscriptions</div>
@@ -185,7 +193,10 @@ export function Footer() {
 
                             <div className="border-b border-slate-400"
                                 onClick={() => setresourcesOpen(!resourcesOpen)}>
-                                Resources
+                                <div className="flex justify-between">
+                                    Resources
+                                <img src="arrow_drop_down.svg" alt="" />
+                                    </div>
                                 {resourcesOpen && (
                                     <div className="mt-4 space-y-4">
                                         <div>Blog</div>
@@ -198,7 +209,11 @@ export function Footer() {
                             </div>
                             <div className="border-b border-slate-400"
                                 onClick={() => setCompareOpen(!compareOpen)}>
-                                Compare
+                                                                <div className="flex justify-between">
+                                    Compare
+                                <img src="arrow_drop_down.svg" alt="" />
+                                    </div>
+
                                 {compareOpen && (
                                     <div className="mt-4 space-y-4">
                                         <div>Stripe vs Zenkar</div>
@@ -243,7 +258,6 @@ export function Footer() {
                     </div>
 
                 </div>
-
 
             </div>
         </div>
